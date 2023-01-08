@@ -65,7 +65,6 @@ function deformedSquare(x,y){
     let cp = [];
 
     let yIdx = round(y/scalar);
-    let xIdx = round(x/scalar);
     if (yIdx%2 == 0){
 	ySgn = +1
     }
