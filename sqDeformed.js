@@ -60,11 +60,12 @@ function midPoint(p,q){
 }
 
 function deformedSquare(x,y){
-    fill("lightgray");
+    fill("blue");
     let v = [];
     let cp = [];
 
     let yIdx = round(y/scalar);
+    let xIdx = round(x/scalar);
     if (yIdx%2 == 0){
 	ySgn = +1
     }
