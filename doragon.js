@@ -29,8 +29,8 @@ function evaluate(seq,base) {
         fill("skyblue")
         stroke("skyblue");
     } else if(seq[9] == 0 && seq[10] == 0){
-        fill("blue")
-        stroke("blue");
+        fill("Yellow")
+        stroke("Yellow");
     } else if(seq[10] == 0 && seq[11] == 0){
         fill("pink")
         stroke("pink");
